@@ -5,7 +5,7 @@
     font-family: Nunito;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -39,7 +39,7 @@ main {
     height: 90px;
     margin: 10px 10px 25px 10px;
     background-color: black;
-    display: inline-block;
+    float: left;
 }
 
 img {
